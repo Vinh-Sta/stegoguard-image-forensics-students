@@ -8,9 +8,8 @@ if mode not in ["clean", "suspicious"]:
 
 Path("images").mkdir(exist_ok=True)
 
-# Small valid 1x1 PNG image.
 png_data = base64.b64decode(
-    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/p9sAAAAASUVORK5CYII="
+    "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAADklEQVR42mNkGAWjYBAAAAwAARf426QAAAAASUVORK5CYII="
 )
 
 if mode == "suspicious":
